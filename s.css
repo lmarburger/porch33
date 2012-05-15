@@ -1,0 +1,86 @@
+body {
+  color: #111;
+  font: 18px/1 "proxima-nova-alt", "helvetica neue", helvetica, arial, geneva, sans-serif;
+  margin: 50px 0;
+  text-align: center;
+}
+
+h1 {
+  background: url(porch.png) center no-repeat;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3) inset;
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3) inset;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3) inset;
+  color: #FFFFFF;
+  display: block;
+  font-size: 45px;
+  -webkit-font-smoothing: antialiased;
+  font-weight: 300;
+  height: 426px;
+  line-height: 426px;
+  margin: 0 auto 50px;
+  width: 426px;
+  text-shadow: 0 1px 1px #000;
+}
+
+small {
+  font-size: 0.73em;
+  font-weight: 600;
+}
+
+p {
+  margin-bottom: 30px;
+}
+
+input[type=email],
+input[type=submit] {
+  display: block;
+  margin: 0px auto;
+}
+
+input[type=email]:before {
+  color: #CACCCF;
+  content: "»";
+  position: absolute;
+}
+
+input[type=email]:focus:before {
+  display: none;
+}
+
+input[type=email] {
+  border: none;
+  border-bottom: 1px solid #E4E7EA;
+  color: #111;
+  font: 18px/1 "helvetica neue", helvetica, arial, geneva, sans-serif;
+  margin-bottom: 30px;
+  min-width: 250px;
+  outline: 0;
+  position: relative;
+  text-align: center;
+}
+
+:-moz-placeholder,
+:-ms-input-placeholder,
+::-webkit-input-placeholder {
+  color: #CACCCF;
+}
+
+input[type=submit] {
+  border: none;
+  background: #FE821B;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  color: #FFF;
+  font: bold 13px/1 "Proxima Nova", "helvetica neue", helvetica, arial, geneva, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  padding: 0.75em 2em;
+  text-transform: uppercase;
+}
+
+input[type=submit]:hover {
+  cursor: pointer;
+}
