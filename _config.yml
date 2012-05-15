@@ -1,1 +1,1 @@
-exclude: [ Gemfile, Gemfile.lock, Procfile ]
+exclude: [ Gemfile, Gemfile.lock, CNAME ]
