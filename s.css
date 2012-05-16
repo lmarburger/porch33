@@ -17,7 +17,7 @@ h1 {
   display: block;
   font-size: 45px;
   -webkit-font-smoothing: antialiased;
-  font-weight: 300;
+  font-weight: 400;
   height: 426px;
   line-height: 426px;
   margin: 0 auto 50px;
@@ -27,7 +27,8 @@ h1 {
 
 small {
   font-size: 0.73em;
-  font-weight: 600;
+  font-weight: 300;
+  margin-right: 0.2em;
 }
 
 p {
