@@ -31,8 +31,27 @@ small {
   margin-right: 0.2em;
 }
 
+a {
+  color: #00E;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #551A8B;
+}
+
 p {
   margin-bottom: 30px;
+}
+
+p.social {
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+div.fb-like span {
+  height: 24px !important;
 }
 
 input[type=email],
